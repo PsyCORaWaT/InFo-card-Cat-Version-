@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+}
+
+#back-ground{
+    /* height: 100vh;
+    width: 100vh; */
+    align-content: center;
+}
+
+.card {
+    background-color: white;
+    width: 280px;
+    height: 410px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 300px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 12px rgb(211, 211, 211);
+    transition: 0.53s;
+}
+.card:hover{
+    box-shadow: 2px 2px 15px 3px #33c7d8;
+}
+
+.back {
+    background-color: rgb(8, 128, 197);
+    width: auto;
+    height: 134px;
+    align-content: center;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+}
+
+/* #iaas{
+    background-color: rgb(8, 128, 197);
+} */
+
+#profile-pic {
+    height: 125px;
+    width: 125px;
+    /* border: double 2px rgb(255, 255, 255); */
+    border-width: 2px;
+    /* border-style: solid solid double solid;
+    border-color: rgb(255, 255, 255) rgb(255, 255, 255) rgb(20, 105, 202) rgb(255, 255, 255); */
+    border: solid 2.4px whitesmoke;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 77.5px;
+    margin-right: 77.5px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+#profile-pic:hover{
+    box-shadow: 1px 1px 8px 2px #33c7d8;
+}
+
+.info {
+    text-align: center;
+}
+
+#name {
+    cursor: default;
+    font-family: "Comic Neue", cursive;
+    font-weight: bold;
+    font-style: oblique(10deg);
+    font-size: 20px;
+    /* margin-left: 38%; */
+    margin-top: 30px;
+}
+
+#work {
+    cursor: default;
+    font-family: cursive;
+    font-style: 300 Italic;
+}
+
+#logoss {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+#yo {
+    margin-top: 5px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: default;
+}
+
+.logo {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    height: 30px;
+    width: 30px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.logo:hover{
+    box-shadow: 1px 1px 3px 3px #33c7d8;
+}
+
+#btn{
+    margin-top: 20px;
+}
+#subs {
+    background-color: rgb(8, 128, 197);
+    color: white;
+    cursor: pointer;
+    width: 106px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-right: 6px;
+    transition: background-color 0.45s, color 0.85s;
+}
+#subs:hover{
+    opacity: 0.6;
+    background-color: limegreen;
+}
+#subs:active{
+    background-color: greenyellow;
+    color: whitesmoke;
+}
+
+#msg{
+    background-color: rgb(8, 128, 197);
+    color: white;
+    cursor: pointer;
+    width: 106px;
+    height: 30px;
+    font-weight: 400;
+    border: none;
+    border-radius: 15px;
+    margin-left: 6px;
+    margin-right: 25px;
+    transition: background-color 0.65s, color 0.85s;
+}
+#msg:hover{
+    background-color: limegreen;
+}
+#msg:active{
+    background-color: greenyellow;
+}
